@@ -4,6 +4,10 @@ const port = process.env.PORT || 3000;
 const express = require('express');
 const axios = require('axios');
 
+const cors = require('cors'); // Import the cors package
+
+
+
 const OpenAI = require('openai');
 const bodyParser = require('body-parser');
 
@@ -12,6 +16,7 @@ const openai = new OpenAI({
 });
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 
