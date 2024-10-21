@@ -1,0 +1,170 @@
+{
+    "success": true,
+    "itinerary": {
+        "trip": {
+            "destination": "Goa, India",
+            "length": "3 days",
+            "budget": "Rs. 50,000",
+            "season": "Fall",
+            "transportation": "Public transport",
+            "travelers": 2,
+            "interests": [
+                "Beach",
+                "Adventure Sports"
+            ],
+            "itinerary": {
+                "day1": {
+                    "date": "2024-10-28",
+                    "accommodation": {
+                        "name": "Taj Exotica Resort & Spa",
+                        "website": "https://www.tajhotels.com/en-in/taj/taj-exotica-goa/",
+                        "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DNDxMeSXe-zmgbk63u0VBwGAyLwzHuiCXK_bqCn9S6NUUeQ4snoAJKhB7abHBO_3ySSqL_HcckhL7qBFMCrfZeiUC_HpnNkNM85BgLvuKzipcu8sh6Uckyl8cYfvEV-u0GF4EfxeHKZJoVjIiiZBIyBaztPgKZ1CVeCCYUmBbvT6n-x&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                        "unique_features": "Luxury beachfront resort with spa and multiple dining options",
+                        "couple_friendly": true,
+                        "time": "Check-in: 2:00 PM",
+                        "wheelChairAccessible": true,
+                        "price": "Rs. 15,000 for 2 people"
+                    },
+                    "activities": [
+                        {
+                            "time": "10:00 AM - 1:00 PM",
+                            "activity": "Water Sports at Baga Beach",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DMtfepViYJaNgYZDvGK5iIxBsTBxjotmrzjpHJASHInAfOcVniNnxG7L4hjcsb0Pu-IIGo5I44AbF0R76XrfbLMd8WuasUfKXUxKSArOPZ6woKo57M6gJyhaZUvWC038H7igLB5ARawGUDI5mCUjRtod-AUviBOaUD9YaTfCUXryDJU&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 2000 for 2 people",
+                            "insider_tip": "Try parasailing for an adrenaline rush"
+                        },
+                        {
+                            "time": "4:00 PM - 6:00 PM",
+                            "activity": "Explore Anjuna Flea Market",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DOiwbWBIygmiK9GybPKYTvOAtM5ue8iW3fR0KBbGIRhPKcViMYlr4YfY3CkG9UFr4BVaGl5L5zQ5PDJ3bP3rqEyLhyqO0UOJAFByLUssKAHRNd3WRvxKVoSsyoZBjP_MNwjGKC3eNcCMFXrtPBNBYK2TwYOTf5_iI7hO3D9hvwzS55M&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 500 for 2 people",
+                            "insider_tip": "Bargain for unique souvenirs"
+                        }
+                    ],
+                    "location": "Goa, India",
+                    "dining_options": [
+                        {
+                            "name": "Gunpowder",
+                            "specialty_dish": "Rava Fried Fish",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DOOABWtcOWrYl9BHt2yUbp7f9lS80PippYjwGj8OvEo0d6NSdXQm2Uep5ogvwdVZxQhdoezT69Yrux-oacklcMx6XqYYLssHzo6hYpos4IFH0FEnudmsb8t2ivGE2sPivNf7YMt_umxkNppyzUG778BJDzyG06YmVjnkKxzX17hBzQI&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 1200 for 2 people",
+                            "opensAt": "12:00 PM",
+                            "closesAt": "10:00 PM",
+                            "timeSpend": "1:30 PM - 2:30 PM",
+                            "wheelChairAccessible": true,
+                            "dining_type": "Lunch",
+                            "local_event_insight": "Live music every Friday night"
+                        }
+                    ],
+                    "distance_to_next_day": "20 Km to next day's destination"
+                },
+                "day2": {
+                    "date": "2024-10-29",
+                    "accommodation": {
+                        "name": "Jungle Hostel Goa",
+                        "website": "https://www.junglehostelgoa.com/",
+                        "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DNePRujQFBj6QwKEWqASlUFbv6x4s-oClmKSTb7KnAoX79guy0Uimu9KS_I1EoTN7jOEfmHm71aNmrjLphFIzLz1-50tElgTYf8YKnf1OXeHfHuxBQ2z8ZTge3VTcZe6itN8sKlw7IJagt_07-CrzNPdoEimLKY9oJ4V4SFu1GRNRUE&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                        "unique_features": "Eco-friendly hostel surrounded by nature",
+                        "couple_friendly": true,
+                        "time": "Check-in: 2:00 PM",
+                        "wheelChairAccessible": false,
+                        "price": "Rs. 2000 for 2 people"
+                    },
+                    "activities": [
+                        {
+                            "time": "10:00 AM - 1:00 PM",
+                            "activity": "Trek to Dudhsagar Waterfall",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DP7x3xu2MBnXONND3DCynjnRNeNWu_o5jlIOqcGJEvzyNNU1GC-KqffG4Jq8G_pMPw40spi9zPVOwnVMH0BcfEP6jiGVvHJhNmoNyzlrbpZ_zYyRdaz2aJetKLePaD-l2GURABwYe4mIkGTEvJRoqgLysMcagMJelaIkyqd8vU2xhj9&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 1500 for 2 people",
+                            "insider_tip": "Take a dip in the refreshing waters"
+                        },
+                        {
+                            "time": "4:00 PM - 6:00 PM",
+                            "activity": "Visit Cabo De Rama Fort",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DMhRIJ-y3cThxLzcf7dJt03RJISH1W_J1_-mwWdKxnJpiA00OOXQGs6V-mpG0Wh6zFbkhGoBSGXJkhwK7GcSntuaN2gZc2Ew0zgkA5FERG_9hxRbRHdG2omuBQtq6z3k2GxJe4wDm7sUlzLiYTaNXa494cN9cvM4H1zOsPsJHGCD6m7&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 800 for 2 people",
+                            "insider_tip": "Enjoy sunset views from the fort"
+                        }
+                    ],
+                    "location": "Goa, India",
+                    "dining_options": [
+                        {
+                            "name": "Curlies Beach Shack",
+                            "specialty_dish": "Grilled Seafood Platter",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DMScsLETaODlX-Tl3HqrpDUtf7qFMZus61928KuSGVxIrmCo6U_4ehMTnkAaCAnBH6U7AlLh9HS4HkCHMi8xYDmM7RtLlSB_Wy-fuEXXxbEWpfpB_q3UESr7VB-Qle4KNAbZogahxmK-SmIlCtiY7AF2MOxFDpduILNX4lSrLmZYVJ8&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 1500 for 2 people",
+                            "opensAt": "11:00 AM",
+                            "closesAt": "11:00 PM",
+                            "timeSpend": "1:00 PM - 2:00 PM",
+                            "wheelChairAccessible": true,
+                            "dining_type": "Lunch",
+                            "local_event_insight": "Beach party every Saturday night"
+                        }
+                    ],
+                    "distance_to_next_day": "30 Km to next day's destination"
+                },
+                "day3": {
+                    "date": "2024-10-30",
+                    "accommodation": {
+                        "name": "W Goa",
+                        "website": "https://www.marriott.com/hotels/travel/goiwh-w-goa/",
+                        "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DO3rAq1cY7RqYEpO5hAWViMGdtquGfYWW525_wK_doHvZFzatYS8v1F7TBkUVmK4F76XdVC0p4RCmMjmPN4T4pn0zM39k7H4pTN0RRHZEwns_nKwe4JK1CAOzjv_fqrO5nwScqoyr-010d5PaGLxm7WjmbuKPj0QaODmeN37E41Ci0A&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                        "unique_features": "Boutique hotel with vibrant decor and beach access",
+                        "couple_friendly": true,
+                        "time": "Check-in: 2:00 PM",
+                        "wheelChairAccessible": true,
+                        "price": "Rs. 18,000 for 2 people"
+                    },
+                    "activities": [
+                        {
+                            "time": "9:00 AM - 12:00 PM",
+                            "activity": "Dolphin Watching Boat Tour",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DNcSiFrwHdifDdsim9m00yM_B23tWUZz3Fq7of4Csuq2a2WwpsweczkM7CeTCKfFGu__CRInrgyRk-ZYjbv4iOhofljmuJPyfEtdEa-d_v3GGstnP9eugE-NSeFj_wpka_JxfmjI7PoIMvgrRyUpbhw9EDJcETXffLDpzo6XClBhyHY&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 3000 for 2 people",
+                            "insider_tip": "Morning hours offer better chances to spot dolphins"
+                        },
+                        {
+                            "time": "3:00 PM - 5:00 PM",
+                            "activity": "Explore Fontainhas Heritage Quarter",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DN5K5vIhyPPLFFa4CNo4hEc0kiqG-A_3csKW5gjZyGb6TITt05e8BAXb9JqlML74LL9aqz6UqrjLoWw6IlKdXGVBWqlqPKP9cvMgaL88R5hvein6PuGPxT-cGZecKfpgt2BjAfoKBqklSP1YtPBOvp1DubP8AKXlHivmMzxQrHoIAHr&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 1000 for 2 people",
+                            "insider_tip": "Stroll through the colorful streets for Instagram-worthy shots"
+                        }
+                    ],
+                    "location": "Goa, India",
+                    "dining_options": [
+                        {
+                            "name": "Fisherman's Wharf",
+                            "specialty_dish": "Prawn Curry Rice",
+                            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DO6niRp4p2CUVbJ2XSlBZRyQ7w3Vy8h6kMlhTjYamOgwY-juOUHONa3UCPHucoGgp0VQlnOX9jHJpmg1DDSJeRumXO40fZ9LFZRYz5oFdJZVNHOgAj8GzUTiPWxsmRZ2UQ8z79lmXl6q5j9jdgdUP08_o6DVNr80izuw6Q2z5tWH1M9&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8",
+                            "price": "Rs. 1800 for 2 people",
+                            "opensAt": "1:00 PM",
+                            "closesAt": "3:00 PM",
+                            "timeSpend": "1:30 PM - 2:30 PM",
+                            "wheelChairAccessible": true,
+                            "dining_type": "Lunch",
+                            "local_event_insight": "Live music every Sunday afternoon"
+                        }
+                    ],
+                    "distance_to_next_day": "Departure from Goa"
+                }
+            }
+        }
+    },
+    "total_accommodation_price": "Rs. 35,000 for 2 people",
+    "total_activity_price": "Rs. 7500 for 2 people",
+    "total_dining_price": "Rs. 5800 for 2 people",
+    "total_price": "Rs. 47,300",
+    "necessary_items": [
+        {
+            "name": "Sunscreen",
+            "description": "Sunscreen for beach days",
+            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DPN-PFLMYrcamBiaYi0Bhw1pQlZww79wIhBNZj1ZFqoAbkRgJWKznAKmMwfbFXQAT3P47mR0mGSbYGChOZDhC-20A2EA5lgqJR5pwvHfWbSSOQSoqJhPYTaGLL5XN1ryrBdb62drqRe4IOf2Iut6XVoStPvHLJnqTtbXRbevqd6iZ-k&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8"
+        },
+        {
+            "name": "Comfortable Shoes",
+            "description": "For trekking and exploring",
+            "image": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdCG2DPtryR3v_x9LlDnDW2IyGXgz9BCDX79gGWST8ORrtIaGiCENJ8nAIOXR74SrU6VASKxbqTC_OsNrtxTboW2sj3_5VL1coSaZrOW35s-9KvECOlTA1prrWpKgwwibmqH1FRh3AaUI91IiE_qi3RxSjCErCR7LSN_mirEALfX1VTdDw5g&key=AIzaSyAX1nUFuDeB2iqexQ8IA4B0pJNHiRv-7V8"
+        }
+    ]
+}

@@ -1,12 +1,12 @@
 require('dotenv').config();
+const { createKey, readKey, updateKey, deleteKey } = require('./redisClient');
+const tempRes = require('./tempRes.json');  // Adjust the path as needed
+ 
 const port = process.env.PORT || 3000;
 
 const express = require('express');
 const axios = require('axios');
-
 const cors = require('cors'); // Import the cors package
-
-
 
 const OpenAI = require('openai');
 const bodyParser = require('body-parser');
@@ -39,7 +39,7 @@ async function fetchPlacesImage(placeName) {
 
     if (response.data.candidates.length > 0) {
       const placeId = response.data.candidates[0].place_id;
-      const photoReference = response.data.candidates[0].photos[0].photo_reference;
+      const photoReference = response?.data?.candidates[0]?.photos[0]?.photo_reference || "image comming soon";      
 
       const photoUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${photoReference}&key=${apiKey}`;
 
@@ -179,10 +179,35 @@ async function createItinerary(userInput) {
   }
 }
 
+app.post("/redis", async (req, res) => {
+  try{
+
+    await createKey(req.body.location,JSON.stringify(tempRes))
+    const val =  await readKey(req.body.location)
+    
+    res.status(200).json(JSON.parse(val));
+
+  }catch(e){
+    console.log(e)
+  }
+
+
+})
 app.post("/generate-itinerary", async (req, res) => {
   try {
+
+
+    const val =  await readKey(req.body.location)
+
+    if(val?.length > 0){
+      res.status(200).json(JSON.parse(val));
+    }
+
+
     const userInput = req.body;
     const result = await createItinerary(userInput);
+
+    console.log("result generate-itinerary",result)
 
     if (result?.success) {
       const accommodationOptions = result?.itinerary?.trip?.itinerary;
@@ -222,6 +247,9 @@ app.post("/generate-itinerary", async (req, res) => {
           }
         }
       }
+
+
+
       res.status(200).json(result);
     } else {
       res
