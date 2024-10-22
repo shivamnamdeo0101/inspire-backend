@@ -193,12 +193,18 @@ app.post("/redis", async (req, res) => {
 
 
 })
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 app.post("/generate-itinerary", async (req, res) => {
   try {
 
     const val = await readKey(req.body.location)
 
     if (val?.length > 0) {
+      await delay(6000);
       return res.status(200).json(JSON.parse(val));
     }
 
